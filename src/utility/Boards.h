@@ -605,7 +605,7 @@ writePort(port, value, bitmask):  Write an 8 bit port.
 #elif defined(ESP32)
 #define TOTAL_ANALOG_PINS       NUM_ANALOG_INPUTS
 #define TOTAL_PINS              NUM_DIGITAL_PINS
-#define VERSION_BLINK_PIN       LED_BUILTIN
+#define VERSION_BLINK_PIN       1
 // Serial0 not supported
 // #define PIN_SERIAL_RX           3
 // #define PIN_SERIAL_TX           1
